@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{title}</title>
+    <link rel="stylesheet" href="{@assetPath src="main.css"/}"/>
+</head>
+<body>
+    <h1>{title}</h1>
+    <p>Default Shunter page - home template.</p>
+    <ul>
+      {#list}
+        <li>{.}</li>
+      {/list}
+    </ul>
+    <script src="{@assetPath src="main.js"/}"></script>
+</body>
+</html>

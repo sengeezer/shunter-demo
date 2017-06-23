@@ -1,0 +1,22 @@
+{
+  "name": "shunter-demo",
+  "version": "0.0.1",
+  "description": "Springer Nature Shunter demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "springer",
+    "nature",
+    "shunter",
+    "demo",
+    "node",
+    "api"
+  ],
+  "author": "Fabio Albertin",
+  "license": "MIT",
+  "dependencies": {
+    "shunter": "^4.8.0"
+  }
+}
